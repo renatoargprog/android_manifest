@@ -12,7 +12,7 @@
           review="github.com" />
 
   <!-- Valores por defecto -->
-  <default revision="main"
+  <default revision="master"
            remote="github-renato"
            sync-j="4" />
 
