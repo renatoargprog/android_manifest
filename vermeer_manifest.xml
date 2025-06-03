@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Configuración del remote de tu fork -->
+  <remote name="github-renato"
+          fetch="https://github.com/renatoargprog"
+          review="github.com" />
+
+  <!-- Configuración del remote de GioKas93 -->
+  <remote name="github-gio"
+          fetch="https://github.com/GioKas93"
+          review="github.com" />
+
+  <!-- Valores por defecto -->
+  <default revision="main"
+           remote="github-renato"
+           sync-j="4" />
+
+  <!-- Tus repos fork -->
+  <project path="hardware_qcom_media" name="android_hardware_qcom_media" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" />
+  <project path="hardware/qcom-caf/sm8550/gps" name="android_hardware_qcom-caf_sm8550_gps" />
+  <project path="hardware/qcom-caf/sm8550/media" name="android_hardware_qcom_media" />
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" />
+  <project path="device/xiaomi/sm8550-common" name="android_device_xiaomi_sm8550-common" />
+  <project path="device/xiaomi/sepolicy" name="android_device_xiaomi_sepolicy" />
+  <project path="device/xiaomi/vermeer-kernel" name="android_device_xiaomi_vermeer-kernel" />
+  <project path="device/xiaomi/vermeer" name="android_device_xiaomi_vermeer" remote="github-gio" />
+  <project path="kernel/xiaomi/sm8550" name="android_device_xiaomi_vermeer-kernel" remote="github-gio" />
+
+</manifest>
